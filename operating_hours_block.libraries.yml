@@ -1,0 +1,8 @@
+operating-hours-block:
+  js:
+    js/operating-hours-block.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+    - core/drupalSettings

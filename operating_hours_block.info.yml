@@ -1,0 +1,7 @@
+name: Operating Hours Block
+type: module
+description: Simple module that provides a configurable operating hours block.
+core: 8.x
+package: Custom
+dependencies:
+  - block

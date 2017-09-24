@@ -1,0 +1,42 @@
+{#
+/**
+ * @file
+ * operating-hours-block.html.twig
+ */
+#}
+
+{% if days %}
+
+<div>
+  <span id="operating-hours-today"></span>
+</div>
+
+<div>
+  Monday: {{ days.monday }}
+</div>
+
+<div>
+  Tuesday: {{ days.tuesday }}
+</div>
+
+<div>
+  Wednesday: {{ days.wednesday }}
+</div>
+
+<div>
+  Thursday: {{ days.thursday }}
+</div>
+
+<div>
+  Friday: {{ days.friday }}
+</div>
+
+<div>
+  Saturday: {{ days.saturday }}
+</div>
+
+<div>
+  Sunday: {{ days.sunday }}
+</div>
+
+{% endif %}

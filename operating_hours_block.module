@@ -1,0 +1,14 @@
+<?php
+/**
+ * @file
+ * Code for the Operating Hours Block module.
+ */
+
+function operating_hours_block_theme($existing, $type, $theme, $path) {
+  $items = [
+    'operating_hours_block' => [
+      'variables' => ['days' => NULL],
+    ],
+  ];
+  return $items;
+}
